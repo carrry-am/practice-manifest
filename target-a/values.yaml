@@ -5,6 +5,6 @@ sample-app:
   replicaCount: 1
   image:
     repository: dummy/app
-    tag: hash.fc77061
+    tag: hash.6afcd9b
   container:
     port: 3000
