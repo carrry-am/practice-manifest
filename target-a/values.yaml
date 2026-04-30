@@ -1,0 +1,10 @@
+sample-app:
+  app:
+    env: target-a
+    product: sample-app
+  replicaCount: 1
+  image:
+    repository: dummy/app
+    tag: hash.0000000
+  container:
+    port: 3000
